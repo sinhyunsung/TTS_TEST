@@ -9,10 +9,11 @@ h1 {
 }
 
 table {
-    width: 50%;
+    width: 100%;
     border-collapse: collapse;
-    margin: 20px auto; /* 가운데 정렬을 위해 margin 설정 */
+    margin: 10px auto; /* 가운데 정렬을 위해 margin 설정 */
     text-align: center;
+    max-width: 500px;
 }
 
 th, td {

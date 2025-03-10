@@ -12,6 +12,14 @@ document.addEventListener("DOMContentLoaded", function () {
         { name: "Model C", prefix: "modelC" }
     ];
 
+
+    // 2. (예시) 모델 정보
+    const models2 = [
+        { name: "Model D", prefix: "modelA" },
+        { name: "Model E", prefix: "modelB" },
+        { name: "Model F", prefix: "modelC" }
+    ];
+
     // 3. (예시) 각 테이블에 들어갈 mp3 파일 목록
     //    - 실제로는 서버에서 받아오거나, 다른 방식으로 정의할 수 있습니다.
     const group1Files = 1;
@@ -47,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // 6. 두 번째 테이블에 mp3 목록 생성
-    models.forEach(model => {
-        createTableRow(model, group2Files, tableBody2);
+    models2.forEach(model2 => {
+        createTableRow(model2, group2Files, tableBody2);
     });
 });
