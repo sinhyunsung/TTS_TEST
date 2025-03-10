@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto; /* 가운데 정렬을 위해 margin 설정 */
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+.first-col {
+    font-weight: bold;
+    text-align: center;
+    background-color: #f8f8f8;
+    width: 15%;
+}
+
+audio {
+    width: 100%;
+    max-width: 300px;
+}
